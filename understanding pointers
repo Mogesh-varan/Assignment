@@ -2,7 +2,7 @@
 main(){
 int a,*p1,**p2;
 a=10;
-p1=&a;
+p1=&a;     // address of a
 p2=&p1;
 printf("the value of a is %d",a);
 printf("%d",**p2);
